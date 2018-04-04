@@ -133,7 +133,7 @@
           }
         ],
         "postCommit": {
-          "script": "./manage.py migrate ./manage.py train ./manage.py runserver 0.0.0.0:8080"
+          "script": ["./manage.py migrate","./manage.py train","./manage.py runserver 0.0.0.0:8080"]
         }
       }
     },
