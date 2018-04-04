@@ -136,8 +136,6 @@
           }
         ],
         "postCommit": {
-           "script": "./manage.py migrate"
-		   "script": "./manage.py train"		
            "script": "./manage.py test"
         }
       }
