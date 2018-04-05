@@ -57,7 +57,8 @@ CHATTERBOT = {
     'training_data': [
         './example_app/corpus/'
     ],
-    'django_app_name': 'django_chatterbot'
+    'django_app_name': 'django_chatterbot',
+	'read_only':Ture
 }
 
 MIDDLEWARE = [
