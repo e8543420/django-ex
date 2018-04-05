@@ -55,7 +55,9 @@ CHATTERBOT = {
     'name': 'Django ChatterBot Example',
     'trainer': 'chatterbot.trainers.ChatterBotCorpusTrainer',
     'training_data': [
-        './example_app/corpus/'
+        './example_app/corpus/',
+		'chatterbot.corpus.english',
+		'chatterbot.corpus.chinese'
     ],
     'django_app_name': 'django_chatterbot',
 	'read_only':True
