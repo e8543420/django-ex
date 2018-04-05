@@ -58,7 +58,7 @@ CHATTERBOT = {
         './example_app/corpus/'
     ],
     'django_app_name': 'django_chatterbot',
-	'read_only':Ture
+	'read_only':True
 }
 
 MIDDLEWARE = [
