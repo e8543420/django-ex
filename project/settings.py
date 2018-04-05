@@ -59,6 +59,7 @@ CHATTERBOT = {
     ],
     'django_app_name': 'django_chatterbot',
 	'read_only':Ture
+
 }
 
 MIDDLEWARE = [
